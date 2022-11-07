@@ -2,7 +2,7 @@ using ROT5Crypto;
 
 namespace Test;
 
-public class UnitTest1
+public class RotTests 
 {
     [Theory]
     [InlineData("FML14", "FML69")]

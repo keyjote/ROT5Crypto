@@ -25,4 +25,15 @@
       <ProjectReference Include="..\ROT5Crypto\ROT5Crypto.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Data" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Data\words_alpha.txt" />
+      <Content Include="Data\words_alpha.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
